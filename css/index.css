@@ -59,6 +59,13 @@ html, body {
 .part1 {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 70%;
+    margin: 5% 15%;
+}
+
+.part2 {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
     margin: 5%;
 }
 
@@ -109,14 +116,16 @@ a {
 }
 
 header {
+    border: 5px solid saddlebrown;
     display: flex;
-    height: 100vh;
-    height: 50vh;
-    align-content: flex-start;
+    height: 30vh;
+    align-content: center;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     border-bottom: 1px dashed black;
 }
+
 
 .headbout {
     text-align: left;
@@ -124,7 +133,8 @@ header {
 
 .containerabout-page {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex: wrap;
     word-wrap: break-word;
 }
 
@@ -138,22 +148,21 @@ p {
     margin-left: 50%;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    text-align: right;
     justify-content: space-around;
     font-size: 1.1rem;
-    height: 20vh;
-    width:100%;
+    height: 5vh;
 }
 
-#links2 {
-    margin-right: 10%;
-    text-align: justify;
+
+.links2 {
+    margin-right: 40%;
+    justify-content: space-around;
+    align-content: space-around;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-size: 1.1rem;
-    height: 20vh;
-    width:80%; 
+    height: 5vh;
 }
   
 .container {
@@ -176,6 +185,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.box-div {
+    text-align: left;
+    word-wrap: break-word;
+}
 
 .top-content {
     display: flex;
